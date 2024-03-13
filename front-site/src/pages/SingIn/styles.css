@@ -1,0 +1,140 @@
+body {
+    flex: 1;
+    background: rgb(234, 234, 234);
+    
+}
+
+.signin-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.signin-logo {
+    background: #FFB74A;
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signin-content {
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.signin-title-direction {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.signin-title-main {  
+    font-size: 40px;
+    font-family: "Bebas";
+    margin: 0;   
+}
+
+.signin-title-sub {
+    font-size: 40px;
+    font-family: "Bebas";
+    margin: 0;   
+}
+
+.signin-logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+.signin-form-box {
+    background: white;
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px rgb(230, 230, 230) solid;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-title-login {
+    font-size: 55px;
+    font-family: "Bebas";
+    margin-top: 10px;
+}
+
+.signin-label,
+.signin-value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    align-items: baseline;
+}
+
+.signin-text-decoration {
+    color: black;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Bebas';
+}
+
+.signin-edit-profile {
+    background: #E48A00;
+    width: 140px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-top: 23px;
+    align-self: center;
+    border: 1px solid black;
+    font-size: 22px;
+    color: black;
+    font-family: "Bebas";
+    text-align: center;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.signin-edit-profile:hover {
+    background-color: #FFA700;
+   
+}
+
+.signin-value input {
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #444;
+    color: #eee;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    outline: 1px solid 444;
+    font-family: "Bebas";
+    width: 150px;
+  }
+
+.signin-go-to-login {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    margin-top: 20px;
+    font-family: "Bebas";
+    transition: color 0.3s;
+  }
+  
+.signin-go-to-login:hover {
+    color: #FFA700;
+    text-decoration: none;
+  }

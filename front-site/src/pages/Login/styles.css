@@ -1,0 +1,148 @@
+
+
+body {
+    flex: 1;
+    background: rgb(234, 234, 234);
+  }
+  
+  .container-login {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .logo-login {
+    background: #FFB74A;
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .content-login {
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .title-direction-login {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .title-login {
+    font-size: 40px;
+    font-family: "Bebas";
+    margin: 0;
+  }
+  
+  .form-box-login {
+    background: white;
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px rgb(230, 230, 230) solid;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title-login-box {
+    font-size: 55px;
+    font-family: "Bebas";
+    margin-top: 50px;
+  }
+  
+  .label-login,
+  .value-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    align-items: baseline;
+  }
+  
+  .text-decoration-login {
+    color: black;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Bebas';
+  }
+  
+  .edit-profile-button {
+    background: #E48A00;
+    width: 140px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-top: 20px;
+    align-self: center;
+    border: 1px solid black;
+    font-size: 22px;
+    color: black;
+    font-family: "Bebas";
+    text-align: center;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .edit-profile-button:hover {
+    background-color: #FFA700;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .value-login input {
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #444;
+    color: #eee;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    outline: 1px solid 444;
+    font-family: "Bebas";
+    width: 150px;
+  }
+  
+  .value-login input::placeholder {
+    color: #999;
+    font-family: "Bebas";
+  }
+  
+  .value-login .input-error {
+    outline: 1px solid rgb(255, 72, 72);
+  }
+  
+  .error-message-login {
+    color: rgb(255, 72, 72);
+    font-size: 0.75rem;
+    margin-top: 5px;
+    font-family: "Bebas";
+    font-size: 13px;
+  }
+  
+  .go-to-signin-button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    margin-top: 20px;
+    font-family: "Bebas";
+    transition: color 0.3s;
+  }
+  
+  .go-to-signin-button:hover {
+    color: #FFA700;
+    text-decoration: none;
+  }
+  

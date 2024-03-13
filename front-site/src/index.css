@@ -1,0 +1,11 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; 
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: local('Bebas'), url(./assets/fonts/BebasNeue-Regular.ttf) format('woff');
+}
